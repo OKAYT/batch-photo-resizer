@@ -22,17 +22,20 @@ C:\Users\Asus\OneDrive\Documents\Default Project\batch-photo-resizer
 
 ## 2b. Or use the terminal
 
-Create an empty repository on GitHub first (no README), then run:
+1. Open <https://github.com/new>
+2. Repository name: **batch-photo-resizer** · **Public** · do **not** add a README, .gitignore, or licence
+3. Click **Create repository**
+4. In the VS Code terminal run:
 
 ```powershell
 cd "C:\Users\Asus\OneDrive\Documents\Default Project\batch-photo-resizer"
-git init
-git add .
-git commit -m "Add Batch Photo Resizer and Watermarker"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/batch-photo-resizer.git
 git push -u origin main
 ```
+
+The remote is already set to <https://github.com/OKAYT/batch-photo-resizer.git>.
+If Git asks you to sign in, choose **Sign in with your browser**.
+
+> If you start from scratch on another computer, replace `OKAYT` with your own GitHub username.
 
 ## 3. Turn on GitHub Pages
 
@@ -43,7 +46,7 @@ git push -u origin main
 5. Wait 1–2 minutes, then open:
 
 ```
-https://YOUR-USERNAME.github.io/batch-photo-resizer/
+https://okayt.github.io/batch-photo-resizer/
 ```
 
 ## 4. When you change the code later
